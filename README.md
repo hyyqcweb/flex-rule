@@ -1,0 +1,58 @@
+### flex 语法
+
+```
+	.container {
+		display: flex;
+		/*flex-wrap: wrap;
+		flex-direction: row;*/
+		/*flex-flow: row wrap; */ /*flex-wrap flex-direction集成*/
+
+		/*justify-content: space-around; /*平分*/
+		/*justify-content: space-between; /*左右两边没有边距*/
+		/*justify-content: center; /*居中*/
+		/*justify-content: flex-start; /*靠左*/
+		/*justify-content: flex-end; /*靠右*/
+
+		/*height:300;
+		/*align-items: stretch; /*默认 拉伸*/
+		/*align-items: flex-start; /*顶部*/
+		/*align-items: flex-end; /*底部*/
+		/*align-items: baseline; /*基线*/
+		
+		/*align-self*/
+		height: 300px;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	/*.item-1 {
+		order: 1; /*控制html的顺序 最后*/
+	/*}
+	.item-5 {
+		order: -1; /*控制html的顺序 最前面*/
+	/*}
+	.item-3 {
+		order: -5;
+	}
+	/* order初识值为0 大于0 排后面, 小于0 排前面 */
+
+	/*.item {
+		flex-grow: 1; /*项目宽度*/
+	/*}
+	.item-3 {
+		flex-grow: 9; /*使特别的html结构宽度变大*/
+	/*}*/
+
+	.item-1 {
+		align-self: flex-end;
+	}
+	.item-2 {
+		align-self: center;
+	}
+	.item-4 {
+		align-self: center;
+	}
+	.item-5 {
+		align-self: flex-end;
+	}
+```
