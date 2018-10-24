@@ -1,4 +1,4 @@
-### flex 语法
+### flex 语法介绍
 
 ```
 	.container {
